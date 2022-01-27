@@ -5,7 +5,7 @@ let country = 'Brasil'
 let continent = 'America do Sul'
 let population = 213000000
 let isIsland = false
-let language
+let language = "pt-BR"
 
 console.log(country)
 console.log(continent)

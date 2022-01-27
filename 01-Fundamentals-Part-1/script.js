@@ -10,3 +10,8 @@ console.log(javascriptIsFun)
 console.log(typeof true)
 console.log(typeof javascriptIsFun)
 console.log(typeof 23)
+
+let age = 30
+age = 31
+
+const birthYear = 1991
