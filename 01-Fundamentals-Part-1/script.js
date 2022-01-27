@@ -57,3 +57,17 @@ const BMIMark = mark_weights / mark_height ** 2
 const BMIJohn = john_weights / (john_height * john_height)
 
 console.log(BMIMark, BMIJohn)
+
+
+console.log("==== Strings and Templates Literals ====")
+
+let job = 'Teacher'
+const jonas = "I'm " + firstName + ', a ' + (now - birthYear) + ' year old ' + job + '!'
+console.log(jonas)
+
+const jonasNew = `I'm ${firstName}, a ${now - birthYear} year old ${job}!`
+console.log(jonasNew)
+
+console.log(`String
+multiple
+lines`)
