@@ -44,3 +44,16 @@ console.log(ageSarah >= 18)
 const isFullAge = ageSarah >= 18
 
 console.log(now - 1991 > now - 2018)
+
+console.log("==== Coding Challenge #1 ====")
+
+let mark_weights = 78
+let mark_height = 1.69
+
+let john_weights = 92
+let john_height = 1.95
+
+const BMIMark = mark_weights / mark_height ** 2
+const BMIJohn = john_weights / (john_height * john_height)
+
+console.log(BMIMark, BMIJohn)
